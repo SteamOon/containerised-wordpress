@@ -1,10 +1,10 @@
-# Inception Project
+# Containerised WordPress Project
 
-*This project has been created as part of the 42 curriculum by smoon.*
+*This project has been created as part of the 42 curriculum Inception project by smoon.*
 
 ## Description
 
-**Inception** is a Docker containerization project that deploys a complete WordPress infrastructure using Docker Compose. The project demonstrates containerization best practices by orchestrating three core services:
+This a Docker containerization project that deploys a complete WordPress infrastructure using Docker Compose. The project demonstrates containerization best practices by orchestrating three core services:
 
 - **Nginx**: Reverse proxy and web server handling HTTPS traffic
 - **WordPress**: PHP application running on PHP-FPM
@@ -85,8 +85,6 @@ srcs/
 | **Use Case** | Full OS customization needed | Application packaging & deployment |
 | **Portability** | VM files are large & platform-specific | Container images are portable |
 
-**Choice**: Docker was selected for Inception because it provides sufficient isolation for development/testing while being lightweight and portable—ideal for multi-service application deployment.
-
 ### Secrets vs Environment Variables
 
 | Aspect | Environment Variables | Docker Secrets |
@@ -126,7 +124,7 @@ srcs/
 | **Ease of Use** | Simple, no host path management | More control, but requires setup |
 | **Host Access** | Limited direct access | Full filesystem access |
 
-**Choice**: **Bind mounts** were chosen for Inception because:
+**Choice**: **Bind mounts** were chosen for the project because:
 - Direct access to persistent data on the host (`~/data/`) for backup/inspection
 - Fine-grained control over storage location
 - Easier debugging during development
