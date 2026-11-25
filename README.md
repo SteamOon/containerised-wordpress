@@ -153,14 +153,10 @@ For production, named volumes would be preferred for better portability and Dock
 - [MariaDB Official Documentation](https://mariadb.com/documentation/)
 - [Bogdan Caraman: install Nginx & MariaDB](https://blog.bogdancaraman.com/install-nginx-mariadb-php-fpm-debian-13-cli/)
 
-### General project set up and config file problem solving
-
-- [Tutorial from Github user waltergcc](https://github.com/waltergcc/42-inception)
-
 
 ### Tasks Supported by AI
 
-**Documentation Structure & Content**: AI helped organize and structure the README, USER_DOC and DEV_DOC to meet project requirements, including writing clear descriptions of Docker concepts and design choices and set 
+**Documentation Structure & Content**: AI helped organize and structure the README, USER_DOC and DEV_DOC to meet project requirements, including writing clear descriptions of Docker concepts and design choices and set
 
 **Debugging**: AI was used to identify bugs in set up e.g. misaligned variable names
 
